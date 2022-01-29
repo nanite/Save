@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[39,)"
+issueTrackerURL = "https://github.com/nanite/Save/issues"
+license = "All Rights Reserved"
+[[mods]]
+modId = "save"
+version = "${version}"
+displayName = "Save"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/save"
+authors = "Sunekaer"
+description = '''
+Save
+'''
+[[dependencies.save]]
+modId = "forge"
+mandatory = true
+versionRange = "[39.0.45,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.save]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18,)"
+ordering = "NONE"
+side = "BOTH"

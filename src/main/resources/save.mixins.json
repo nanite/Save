@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.sunekaer.mods.save.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"BlockEntityMixin"
+	],
+	"client": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8"
+}
